@@ -1,0 +1,16 @@
+{{alias}}
+direct   = +forward-override{forward .}
+sss      = +forward-override{forward-socks5 localhost:7070 .}
+
+{direct}
+.googleusercontent.com
+.mozilla.com
+
+{ss}
+.gmail.com
+.google.com
+.youtube.com
+.ytimg.com
+.twitter.com
+.blogspot.com
+feedproxy.google.com
