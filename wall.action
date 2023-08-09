@@ -1,6 +1,6 @@
 {{alias}}
 direct   = +forward-override{forward .}
-ss      = +forward-override{forward-socks5 localhost:7070 .}
+ss      = +forward-override{forward-socks5 localhost:1080 .}
 
 {direct}
 .googleusercontent.com
